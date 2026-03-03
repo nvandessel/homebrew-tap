@@ -3,7 +3,7 @@ cask "frond" do
   name "frond"
   desc "Agent-first CLI for managing stacked PRs"
   homepage "https://github.com/nvandessel/frond"
-  version "0.3.0"
+  version "0.3.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "frond" do
   on_macos do
     on_intel do
       url "https://github.com/nvandessel/frond/releases/download/v#{version}/frond_#{version}_darwin_amd64.tar.gz"
-      sha256 "4a3f8393d2dddf5ccef426e2b8227a07fbae5e2fd107ef0fad9eb3b097cb0771"
+      sha256 "43680eb27b40cf06df817015b0ddd53169a086ca52bda6ba6641a4af38aa8f0a"
     end
     on_arm do
       url "https://github.com/nvandessel/frond/releases/download/v#{version}/frond_#{version}_darwin_arm64.tar.gz"
-      sha256 "136d39e06e37c3f3cb6bbec0bcdb154a311488c2c25b078b0438ebb609a0043f"
+      sha256 "e59323260dd15e57ed1d3bd084694a4d78ab93222d7233b3acb1a3bb4f64cb12"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/nvandessel/frond/releases/download/v#{version}/frond_#{version}_linux_amd64.tar.gz"
-      sha256 "8f061582740427a3bd2327e0c7e1ddecb2f097ca9ce61f5ed3c608aed804dad3"
+      sha256 "49df54890562632923b7078dd3923474d3e2b156b548c03c75b5f030fccf61c9"
     end
     on_arm do
       url "https://github.com/nvandessel/frond/releases/download/v#{version}/frond_#{version}_linux_arm64.tar.gz"
-      sha256 "9ad3b6fc03b74d7255f4a53c1c2a998c63b7c6bc38a14afda36b92ef57f59803"
+      sha256 "2956e73761fe45bd85eaff3a2d495db44f627728ecdc26928471f9e57912e448"
     end
   end
 
