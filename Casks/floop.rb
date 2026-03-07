@@ -3,7 +3,7 @@ cask "floop" do
   name "floop"
   desc "Behavior learning for AI agents"
   homepage "https://github.com/nvandessel/floop"
-  version "0.11.6"
+  version "0.11.7"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "floop" do
   on_macos do
     on_intel do
       url "https://github.com/nvandessel/floop/releases/download/v#{version}/floop-#{version}-darwin-amd64.tar.gz"
-      sha256 "d1db1e4a88b3dc22797cd25da243621a02c802216d530b5cf995344ddc12eac7"
+      sha256 "7344682a8853613c065dccab10ec455f91b66514fa4ed3e1d214f2e16967db40"
     end
     on_arm do
       url "https://github.com/nvandessel/floop/releases/download/v#{version}/floop-#{version}-darwin-arm64.tar.gz"
-      sha256 "78c12369a0cfc26f46ab9f5816c754a46c2201a07d573bdc033a689dc76918c8"
+      sha256 "77f9a2b878b88ad1b94bf45c26e19d4f5c5f7d0f56d120df01efb1bbf87e2895"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/nvandessel/floop/releases/download/v#{version}/floop-#{version}-linux-amd64.tar.gz"
-      sha256 "d5f496d6f4bc2a1e45b09b5045bc5ea51ac47f3ff752baac3d6be39dc7836612"
+      sha256 "00704c41627adb3836b105748fcd6bfec4d835cfd16705ff7f2735a620a2f3ef"
     end
     on_arm do
       url "https://github.com/nvandessel/floop/releases/download/v#{version}/floop-#{version}-linux-arm64.tar.gz"
-      sha256 "3d26ba3c754c8eabe7494e5ea4756ada70dd9f1bba4ba6326c013e6866a4c7be"
+      sha256 "f43f31d0530e5ac71420ec8ccd8a4e6544c476a8de6e52079190ed80f68bf658"
     end
   end
 
